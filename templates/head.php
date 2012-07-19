@@ -12,7 +12,7 @@ include 'config.inc.php';
         <meta name="description" content="<?php echo $site['description']; ?>">
         <meta name="keywords" content="<?php echo $site['keywords']; ?>/">
         <meta name="robots" content="index,follow" />
-        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link type="text/css" rel="stylesheet" href="<?php echo $site['url'];?>/css/style.css" />
     </head>
     <body>
         <div id="container">

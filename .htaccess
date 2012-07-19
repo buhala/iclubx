@@ -11,3 +11,5 @@ RewriteRule ^staff$ staff.php
 RewriteRule ^donate$ donate.php
 RewriteRule ^support$ support.php
 RewriteRule ^policy$ policy.php
+RewriteRule ^buy$ buy.php
+RewriteRule ^buy/([^/]*)$ buy.php?what=$1

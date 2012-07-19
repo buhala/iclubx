@@ -1,0 +1,105 @@
+html {
+    width: 100%;
+}
+body {
+    margin: 0;
+    font-family: "Tahoma", Verdana, Arial;
+    font-size: 12pt;
+    color: #686476;
+}
+h1 {
+    font-family: "Agency FB";
+    font-size: 30pt;
+    color: #dc483e;
+}
+h2 {
+    font-family: "Agency FB";
+    font-size: 25pt;
+    color: #686476;
+}
+p {
+    margin: 10px 0;
+}
+a {
+    color: #686476;
+}
+input[type=text],input[type=password], textarea {
+    border: 1px solid #ccc;
+    font-family: "Tahoma", Verdana, Arial;
+    font-size: 15pt;
+}
+img {
+    border: 0;
+}
+a:hover {
+    color: #333237;
+}
+.center {
+    text-align: center;
+}
+.error {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.25);
+    background: #d81b1f;
+    background: linear-gradient(top, #e73f43, #8b1d20);
+    border-color: #961d20;
+    padding: 5px;
+    width: 400px;
+}
+#container {
+    width: 100%;
+}
+#header {
+    height: 140px;
+    background-color: #afffb5;
+}
+#header .logo {
+    margin-left: 10%;
+    width: 300px;
+    height: 134px;
+    background-image: url("../images/logo.png");
+    float: left;
+}
+#header .menu {
+    margin-right: 10%;
+    padding: 45px;
+    font-size: 15pt;
+    float: right;
+}
+#header .menu a {
+    color: #686476;
+    text-decoration: none;
+}
+#header .menu a:hover {
+    text-decoration: underline;
+}
+#content {
+    margin: 20px 10%;
+}
+#footer {
+    padding: 10px 10%;
+    height: 120px;
+    background-color: #afffb5;
+}
+#footer .powered-by {
+    text-align: center;
+}
+#footer .powered-by img {
+    height: 60px;
+}
+#footer .policy {
+    text-align: center;
+}
+#footer .copyright {
+    text-align: center;
+}
+#footer .copyright a {
+    text-decoration: none;
+}
+#footer .copyright a:hover {
+    text-decoration: underline;
+}

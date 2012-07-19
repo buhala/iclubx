@@ -3,7 +3,7 @@
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 
 date_default_timezone_set('Europe/Sofia');
-if (mb_strstr($_SERVER["PHP_SELF"], "config.php", "UTF-8")) {
+if (mb_strstr($_SERVER["PHP_SELF"], "config.inc.php", "UTF-8")) {
     die('<h1>Access denied!</h1>');
 }
 

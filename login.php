@@ -7,8 +7,10 @@ if($_SESSION['il']){
 echo '<img src="images/login.png" style="float:right">';
 if($_POST['act']=='Login'){
     mysql_select_db($site['game_db']);
-    $q=  mysql_query('SELECT * FROM users WHERE username="'.mysql_real_escape_string($_POST['username']).'" AND password="'.md5($_POST['password']).'"');
+    $q=  query('SELECT * FROM users WHERE username="'.mysql_real_escape_string($_POST['username']).'" AND password="'.md5($_POST['password']).'"');
     if(mysql_num_rows($q)){
+        $_SESSION['ui']=  assoc($q);
+        $_SESSION['il']=1;
         rr('index.php');
     }
     else{

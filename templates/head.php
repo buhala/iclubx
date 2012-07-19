@@ -7,9 +7,14 @@ include 'config.inc.php';
 <!DOCTYPE html>
 <html>
     <head>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title><?php echo $title; ?> | <?php echo $site['name']?></title>
         <meta name="description" content="<?php echo $site['description']; ?>">
+        <script>
+            height=$(window).height();
+            
+            $('#content').html('width');</script>
         <meta name="keywords" content="<?php echo $site['keywords']; ?>/">
         <meta name="robots" content="index,follow" />
         <link type="text/css" rel="stylesheet" href="<?php echo $site['url'];?>/css/style.css" />

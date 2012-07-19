@@ -20,3 +20,7 @@ include 'config.inc.php';
         </div>
     </body>
 </html>
+<script>
+            height=$(window).height()-300;
+            
+            $('#content').css('min-height',height+"px")</script>
